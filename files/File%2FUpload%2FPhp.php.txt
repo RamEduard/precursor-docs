@@ -4,7 +4,6 @@
  * 
  * @author Ramon Serrano <ramon.calle.88@gmail.com>
  *
- * @package Precursor
  * @subpackage File\Upload
  */
 
@@ -26,6 +25,8 @@ class Php extends File{
     var $ignore_uploads = false;
 
     /**
+     * Configuración dependiendo de las opciones
+     *
      * @param array $options
      */
     function __construct(array $options = array())
